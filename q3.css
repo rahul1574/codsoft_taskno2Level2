@@ -1,0 +1,123 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    height: 650px;
+    background-image: url(/im5.jpg);
+    background-size: contain;
+}
+.box{
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.box3{
+    background-color: #52796f;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: 150px;
+    left: -1000px;
+    animation: move 2s 54s ease forwards;
+}
+h2{
+    margin: 20px;
+    color: white;
+}
+h1{
+    margin: 20px;
+    color: white;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#time3{
+    height: 10px;
+    width:500px;
+    /* background-color: green; */
+    position: relative;
+    animation: time 15s ease 38s forwards;
+}
+@keyframes time{
+    from{
+        width:0px;
+        background-color: green;
+    }
+    to{
+        width:500px;
+        background-color: red;
+    }
+}
+#option{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   align-items: center;
+}
+#wrong7{
+    height: 40px;
+    width:400px;
+}
+#wrong7:hover{
+    background-color: green;
+}
+#wrong7:active{
+    background-color:blue;
+    color: white;
+}
+#wrong8{
+    height: 40px;
+    width:400px;
+}
+#wrong8:hover{
+    background-color: green;
+}
+#wrong8:active{
+    background-color:blue;
+    color: white;
+}
+#wrong9{
+    height: 40px;
+    width:400px;
+}
+#wrong9:hover{
+    background-color: green;
+}
+#wrong9:active{
+    background-color:blue;
+    color: white;
+}
+.back2{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+}
+#one{
+    height: 40px;
+    width:200px;
+}
+#correct2{
+    height: 40px;
+    width:400px;
+}
+#correct2:hover{
+    background-color: green;
+}
+#correct2:active{
+    background-color:blue;
+    color: white;
+}
+#one:hover{
+    background-color: green;
+}
+#one:active{
+    background-color:blue;
+    color: white;
+}

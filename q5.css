@@ -1,0 +1,111 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    height: 650px;
+    background-image: url(/img5.avif);
+    background-size: contain;
+}
+.box{
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.box5{
+    background-color: #001524;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: 150px;
+    left: -2000px;
+    animation: move 1s  22s ease forwards;
+}
+h2{
+    margin: 20px;
+}
+h1{
+    margin: 20px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#time5{
+    height: 10px;
+    width:500px;
+    /* background-color: green; */
+    position: relative;
+    animation: time 15s ease 6s forwards;
+}
+#option{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   align-items: center;
+}
+#wrong13{
+    height: 40px;
+    width:400px;
+}
+#wrong13:hover{
+    background-color: green;
+}
+#wrong13:active{
+    background-color:blue;
+    color: white;
+}
+#wrong14{
+    height: 40px;
+    width:400px;
+}
+#wrong14:hover{
+    background-color: green;
+}
+#wrong14:active{
+    background-color:blue;
+    color: white;
+}
+#wrong15{
+    height: 40px;
+    width:400px;
+}
+#wrong15:hover{
+    background-color: green;
+}
+#wrong15:active{
+    background-color:blue;
+    color: white;
+}
+.back4{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+}
+#one{
+    height: 40px;
+    width:200px;
+}
+#correct4{
+    height: 40px;
+    width:400px;
+}
+#correct4:hover{
+    background-color: green;
+}
+#correct4:active{
+    background-color:blue;
+    color: white;
+}
+#one:hover{
+    background-color: green;
+}
+#one:active{
+    background-color:blue;
+    color: white;
+}

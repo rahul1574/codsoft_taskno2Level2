@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(/im5.jpg);
+    background-size: contain;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    position: relative;
+    top:200px;
+}
+select{
+    position: relative;
+    top:300px;
+    height: 30px;
+    width: 500px;
+}
